@@ -279,6 +279,18 @@
       letter-spacing: 0.04em;
     }
 
+    .badge-wip {
+      display: inline-block;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
+      background: #fef3c7;
+      color: #92400e;
+      padding: 0.15rem 0.5rem;
+      border-radius: 2px;
+      margin-bottom: 0.25rem;
+    }
+
     .project-arrow {
       position: absolute;
       top: 2rem;
@@ -533,6 +545,7 @@
       <a href="#" class="project-card">
         <span class="project-number">04</span>
         <span class="project-arrow">↗</span>
+        <span class="badge-wip">In Progress</span>
         <p class="project-title">Llama 3.3 Domain Fine-tune</p>
         <p class="project-desc">QLoRA fine-tuning of Llama 3.3 70B on a domain-specific dataset using Axolotl. Trained on GCP A100 with DeepSpeed ZeRO-3.</p>
         <div class="project-tags">
@@ -546,15 +559,18 @@
       <a href="#" class="project-card">
         <span class="project-number">05</span>
         <span class="project-arrow">↗</span>
+        <span class="badge-wip">In Progress</span>
         <p class="project-title">Retrieval-Augmented Pipeline</p>
-        <p class="project-desc">End-to-end RAG system with custom chunking strategies, hybrid retrieval, and reranking. Benchmarked against baseline GPT-4.</p>
+        <p class="project-desc">End-to-end RAG system with custom chunking strategies, hybrid retrieval, and reranking. Benchmarked against baseline GPT-5. Currently using GPT-5.4-mini.</p>
         <div class="project-tags">
           <span class="tag">LangChain</span>
           <span class="tag">FAISS</span>
           <span class="tag">Python</span>
+          <span class="tag">GPT-5.4-mini</span>
         </div>
       </a>
 
+      <!-- CARD 06 - TO DO
       <a href="#" class="project-card">
         <span class="project-number">06</span>
         <span class="project-arrow">↗</span>
@@ -564,6 +580,20 @@
           <span class="tag">Apache Spark</span>
           <span class="tag">MinHash</span>
           <span class="tag">GCS</span>
+        </div>
+      </a>
+      -->
+
+      <a href="#" class="project-card">
+        <span class="project-number">07</span>
+        <span class="project-arrow">↗</span>
+        <p class="project-title">GANs Projects — UK Peatland Map LiDAR Dataset Synthesis</p>
+        <p class="project-desc">Natural England · Mar–Sep 2022 · Implemented and evaluated various GANs for UK peatland LiDAR dataset synthesis. Developed on Microsoft Azure GPU cloud. Delivered weekly generative AI presentations to staff and executives.</p>
+        <div class="project-tags">
+          <span class="tag">GANs</span>
+          <span class="tag">Generative AI</span>
+          <span class="tag">Azure</span>
+          <span class="tag">LiDAR</span>
         </div>
       </a>
 
